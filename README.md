@@ -89,7 +89,7 @@ Your final submission **must include** in the `README.md`:
 1. The names of all team members.
 2. The selected track (standard in your case).
 3. The role of each team member in the project, the detailed activities performed, and the effort spent in hours. 
-4.  A detailed section explaining your **DevOps design choices**. Present also the difficulties you have faced. For those you have overcome, explain how you did it; for the others, describe the attempts you made. 
+4.  A detailed section explaining your DevOps design choices. Present also the difficulties you have faced. For those you have overcome, explain how you did it; for the others, describe the attempts you made. 
 5.  A description of how AI tools were utilized in the process, if any.
 
 ---
