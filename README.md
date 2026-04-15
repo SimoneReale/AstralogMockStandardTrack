@@ -1,4 +1,4 @@
-# 🚀 AstraLog-HPC
+# AstraLog-HPC
 ### **Standard Track Template | A.Y. 2025-2026**
 
 Welcome to the **AstraLog-HPC** Standard Track project. This repository provides a mock environment for the telemetry analysis software used in the *"Software Engineering for HPC"* course.
@@ -8,7 +8,7 @@ Welcome to the **AstraLog-HPC** Standard Track project. This repository provides
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 .
@@ -24,15 +24,15 @@ Welcome to the **AstraLog-HPC** Standard Track project. This repository provides
 
 ---
 
-## 🛠️ Local Usage
+## Local Usage
 
-### 1️⃣ Installation
+### Installation
 Install the required testing framework:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Running the Mock Engine
+### Running the Mock Engine
 The engine simulates the analysis process. Run it via the command line:
 ```bash
 python3 -m src.astralog_mock \
@@ -41,7 +41,7 @@ python3 -m src.astralog_mock \
   --output ./results
 ```
 
-### 3️⃣ Running Unit Tests
+### Running Unit Tests
 Validate the environment and the mock engine using `pytest`:
 ```bash
 python3 -m pytest -v
@@ -49,42 +49,42 @@ python3 -m pytest -v
 
 ---
 
-## 🎯 DevOps Assignment (Your Tasks)
+## DevOps Assignment (Your Tasks)
 
 Your final grade depends on the successful implementation of the following components:
 
-### 🔁 1. CI/CD Pipeline
+### 1. CI/CD Pipeline
 Create a GitHub Actions workflow in `.github/workflows/main.yml`. The pipeline must:
 - [ ] **Trigger:** Run automatically on every `push`.
 - [ ] **Setup:** Install all necessary dependencies.
 - [ ] **Test:** Execute the test suite using `pytest`.
 
-### 📦 2. Containerization
+### 2. Containerization
 Write a `Singularity.def` file to:
 - [ ] Package the application and all required libraries.
 - [ ] Ensure full **reproducibility** of the computing environment.
 
-### 🖥️ 3. HPC Execution
+### 3. HPC Execution
 Create a `job.sh` script to:
 - [ ] Submit jobs via the **SLURM** scheduler.
 - [ ] Execute the containerized application.
 - [ ] Target the **Galileo 100 cluster** with correct configurations.
 
-### ⚙️ 4. Automation
+### 4. Automation
 Extend your CI/CD pipeline to:
 - [ ] **Deploy** the container to the cluster environment.
 - [ ] **Automate** job submission on the HPC cluster directly from GitHub Actions.
 
 ---
 
-## ⚠️ Rules
+## Rules
 
-### 🎓 Oral Examination
+### Oral Examination
 During the oral exam, you must be prepared to:
 *   **Explain** every part of your pipeline and infrastructure.
 *   **Modify** configurations live if requested by the instructor.
 
-### 📚 Documentation
+### Documentation
 Your final submission **must include** in the `README.md`:
 1. The names of all team members.
 2. The selected track (standard in your case).
@@ -94,7 +94,7 @@ Your final submission **must include** in the `README.md`:
 
 ---
 
-## ✅ Expected Outcomes
+## Expected Outcomes
 By completing this project, you will master:
 *   **CI/CD workflows** tailored for High-Performance Computing.
 *   Scientific containerization using **Singularity**.
@@ -103,7 +103,7 @@ By completing this project, you will master:
 
 ---
 
-## 📌 Notes
+## Notes
 *   This is a **mock environment**: no real telemetry analysis implementation is required.
 *   The focus is entirely on **infrastructure, portability, and automation**.
 *   Ensure your solution is **clean, reproducible, and well-documented**.
